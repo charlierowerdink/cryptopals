@@ -1,2 +1,2 @@
 all:
-	gcc encrypt.c base64.c -o encrypt -w -I.
+	gcc encrypt.c -o encrypt -w -g -I.
