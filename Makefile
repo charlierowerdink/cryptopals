@@ -1,2 +1,2 @@
 all:
-	gcc encrypt.c -o encrypt -w -g -I.
+	gcc src/ex1.c -o ex1 -w -g -I.
