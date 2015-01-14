@@ -7,10 +7,10 @@ LDIR =../lib
 
 LIBS=-lm
 
-_DEPS = data.h base64.h
+_DEPS = data.h base64.h breakRotXor.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = main.o base64.o 
+_OBJ = main.o base64.o breakRotXor.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 

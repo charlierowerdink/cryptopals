@@ -65,10 +65,6 @@ data_t* encryptRotXor(data_t* hex, data_t* key){
    return crypt;
 }
 
-
-
-
-
 data_t* loadFile(char* path){
    FILE* pFile;
    size_t result;
@@ -107,8 +103,6 @@ void writeFile(char* path, data_t* hex){
    fwrite(hex->data, 1, hex->size, pFile);
    fclose (pFile);
 }
-
-
 
 
 data_t* initData(size_t size){
